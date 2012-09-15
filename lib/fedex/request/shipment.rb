@@ -64,6 +64,7 @@ module Fedex
           xml.LabelFormatType @label_specification[:label_format_type]
           xml.ImageType @label_specification[:image_type]
           xml.LabelStockType @label_specification[:label_stock_type]
+          xml.LabelPrintingOrientation @label_specification[:label_printing_orientation]
         }
       end
 
